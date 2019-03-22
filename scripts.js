@@ -11,6 +11,7 @@ const questions = [
   }
 ];
 
+// Setting up or loading local storage both for current question and correct answers
 if (!localStorage.getItem("question_number"))
   localStorage.setItem("question_number", 0);
 let question_number = localStorage.getItem("question_number");
